@@ -1,0 +1,57 @@
+/* Fondo de Proyectos Escolares */
+#FondoInicial{
+    background-image: url(https://img.pikbest.com/backgrounds/20190114/cartoon-childlike-background-promotion-background_1854246.jpg!bw700);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#FondoPrimaria{
+    background-image: url(https://png.pngtree.com/background/20220731/original/pngtree-blue-background-back-to-school-picture-image_1897445.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#FondoSecundaria{
+    background-image: url(https://venngage-wordpress.s3.amazonaws.com/uploads/2018/11/15-Presentation-Background-Examples33.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+/* Fin de fondo de Proyectos Escolares */
+
+/* Posición de imagen y cuadro de texto */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+.section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.section img {
+    max-width: 300px;
+    margin-right: 10px;
+}
+.section-content {
+    flex: 1;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+hr {
+    border: none;
+    height: 1px;
+    background-color: rgb(5, 5, 5);
+    margin: 40px 0;
+}
+/* Fin de posición de imagen y cuadro de texto */

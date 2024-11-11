@@ -1,0 +1,214 @@
+body, div, fieldset{
+     margin: 0;
+     padding: 0;
+     border: 0;
+     font-size: 100%;
+     font: inherit;
+ }
+ .cajabuscar {
+     float: none;
+     width: 100%;
+     max-width: 90vw;
+     margin-bottom: 25px;
+     margin-top: 29px;
+     margin-left: auto;
+     margin-right: auto;
+     display: inline-block;
+     text-align: left;
+ }
+ #buscarform {
+     padding: 0;
+     float: left;
+     clear: both;
+     width: 100%;
+     position: relative;
+ }
+ #buscarform fieldset { float: left }
+
+ #buscarform .search {
+     font-size: 20px;
+     top: 0px;
+     color: #FFF;
+     background: #33BCF2;
+     position: absolute;
+     right: 0;
+     top: 0;
+     padding: 9px;
+     height: 42px;
+     width: 50px;
+     text-align: center;
+ }
+ #buscarform fieldset { width: 100% }
+
+ #s {
+     width: 100%;
+     background-color: #fff;
+     float: left;
+     padding: 8px 0;
+     text-indent: 10px;
+     color: #555555;
+     border: 1px solid #fff; 
+     box-sizing: border-box;
+     height: 42px;
+ }
+
+ .button{
+     right: 0;
+     top: 0;
+     padding: 9px 0;
+     float: right;
+     border: 0;
+     width: 42px;
+     height: 42px;
+     cursor: pointer;
+     text-align: center;
+     padding-top: 10px;
+     color: #a4a4a4;
+     transition: all 0.25s linear;
+     background: transparent;
+     z-index: 10;
+     position: absolute;
+     border: 0;
+     vertical-align: top;
+ }
+/* Diseño de los Hipervínculos */
+#reseña{
+    color: black;
+    cursor:pointer;
+}
+#reseña:hover{
+    color: blue;
+}
+#himno{
+    color: black;
+    cursor: pointer;
+}
+#himno:hover{
+    color: blue;
+}
+#historia{
+    color: black;
+    cursor:pointer;
+}
+#historia:hover{
+    color: blue;
+}
+/* Fin diseño de los Hipervínculos */
+/* Fondo de Himno */
+#FondoHimno{
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/003/031/766/small/light-blue-wide-background-with-radial-blurred-gradient-abstract-free-vector.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+/* Fin de fondo de Himno */
+/* Botón hacia arriba */
+#btn-arriba {
+    display: none;
+    position: fixed;
+    bottom: 25px;
+    right: 20px;
+    z-index: 99;
+    font-size: 24px; /* Ajusta el tamaño del ícono o texto */
+    width: 50px; /* Define el ancho del botón */
+    height: 50px; /* Define el alto del botón para que sea igual al ancho */
+    border: none;
+    outline: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 50%; /* Hace que el botón sea circular */
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centra el contenido dentro del círculo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Añade una sombra para un mejor aspecto */
+}
+/* Fin botón hacia arriba */
+/* Botón de Comentarios */
+.boton-enviar {
+    background-color: #28a745; /* Color de fondo verde */
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 30px; /* Bordes bien redondeados */
+    cursor: pointer;
+    font-size: 18px;
+    text-transform: uppercase;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    transition: transform 0.2s ease; /* Efecto de movimiento al pasar el cursor */
+}
+.boton-enviar:hover {
+    transform: translateY(-2px); /* Mueve el botón ligeramente hacia arriba */
+    background-color: #218838; /* Color más oscuro al pasar el cursor */
+}
+/* Fin botón de Comentarios */
+/* Diseño del Título */
+#titulo {
+    text-align: left; 
+    font-family: Arial Black; 
+    font-weight: bold; font-size: 30px; 
+    background: black; 
+    -webkit-background-clip: text; 
+    -moz-background-clip: text; 
+    background-clip: text; 
+    color: transparent; 
+    text-shadow: 0px 3px 3px rgba(black, black, black, black),0px -1px 1px rgba(0,0,0,0.3);
+    text-align: center;
+    font-size: 65px;
+    }
+/* Fin diseño del Título */
+#FondoPW {
+    background-image: url(https://crehana-blog.s3.amazonaws.com/media/filer_public/6d/24/6d24bdce-687a-43b0-a881-f707da5a5932/fondos-powerpoint-colores-pasteles-2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+hr {
+    border: none;
+    height: 2px;
+    background-color: black;
+    margin: 40px 0;
+}
+
+/*CSS para el Card de abajo*/
+
+
+.cta {
+	--shadowColor: 187 60% 40%;
+	display: flex;
+	flex-wrap: wrap;
+	background: rgb(108, 187, 232);
+	max-width: 50rem;
+	width: 100%;
+	box-shadow: 0.65rem 0.65rem 0 hsl(var(--shadowColor) / 1);
+	border-radius: 0.8rem;
+	overflow: hidden;
+	border: 0.5rem solid;
+}
+
+.cta img {
+	aspect-ratio: 3 / 2;
+	object-fit: cover;
+	flex: 1 1 300px;
+	outline: 0.5rem solid;
+}
+
+.cta__text-column {
+	padding: min(2rem, 5vw) min(2rem, 5vw) min(2.5rem, 5vw);
+	flex: 1 0 50%;
+}
+
+.cta__text-column > * + * {
+	margin: min(1.5rem, 2.5vw) 0 0 0;
+}
+
+.cta a {
+	display: inline-block;
+	color: black;
+	padding: 0.5rem 1rem;
+	text-decoration: none;
+	background: rgb(18, 63, 212);
+	border-radius: 0.6rem;
+	font-weight: 700;
+	border: 0.35rem solid;
+}
